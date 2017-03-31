@@ -1,0 +1,6 @@
+/*
+    Write your own local Deque interface.
+
+    Include all methods your trio plans to implement.
+    Comment out all methods.
+*/

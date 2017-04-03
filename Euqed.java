@@ -1,7 +1,22 @@
+//Team API
+//Pacy Yan, Iris Tao, Aryan Bhatt
+//LAB #02: All Hands on Deque!
+//2017-04-04
+
 /*
 Class Euqed to implement interface Deque<D>
 */
-public class Euqed{
+public class Euqed<T> implements Deque<T>{
+
+    private LLNode<T> _front, _end;
+    private int _size;
+
+    public Euqued(){
+	_size = 0;
+    }
+
+
+    
     /*-------------Begin Add Methods[Iris]------------*/
     /*addFirst:
       ---inserts the specified element at the front of this deque if it is possible todo so immediately without violating capacity restrictions.

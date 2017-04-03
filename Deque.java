@@ -6,49 +6,24 @@
 */
 
 public interface Deque<D>{
-    /*-------------Begin Add Methods[Iris]------------*/
-    /*addFirst:
-    ---inserts the specified element at the front of this deque if it is possible todo so immediately without violating capacity restrictions.
-    */
-    public void addFirst(T x){
+    /*inserts an element at the front the deque*/
+    public void addFirst(T x);
 
-    }
-    /*addLast:
-    ---inserts the specified element at the end of this deque if it is possible to do so without violating capacity restrictions
-    */
-    public void addlast(T x){
-
-    }
-    /*-------------End Add Methods------------*/
+    /*inserts an element at the end of the deque*/
+    public void addlast(T x);
 
 
 
-    /*-------------Begin Poll Methods[Pacy]------------*/
-    /*pollFirst:
-    ---retrieves and removes the first element of this deque, or returns null if this deque is empty.*/
-    public T pollFirst(){
-	if(
-    }
-    /*pollLast:
-    ---retrieves and removes the last element of this deque, or returns null if this deque is empty*/
-    public T pollLast(){
+    /*returns and removes the first element of the deque - returns null if deque is empty*/
+    public T pollFirst();
 
-    }
-    /*-------------End Poll Methods------------*/
+    /*returns and removes the last element of the deque - returns null if deque is empty*/
+    public T pollLast();
 
 
+    /*returns the first element of the deque - returns null if deque is empty*/
+    public T peekFirst();
 
-    /*-------------Begin Peek Methods[]------------*/
-
-    /*peekFirst:
-      ---Retrieves, but does not remove, the first element of this deque, or returns null if this deque is empty*/
-    public T peekFirst(){
-	
-    }
-    /*peekLast:
-      ---Retrieves, but does not remove, the last element of this deque, or returns null if this deque is empty*/
-    public T peekLast(){
-	
-    }
-    /*-------------End Peek Methods------------*/
+    /*returns the last element of the deque - returns null if deque is empty*/
+    public t peekLast();
 }

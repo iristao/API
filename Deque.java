@@ -27,7 +27,7 @@ public interface Deque<D>{
     /*pollFirst:
     ---retrieves and removes the first element of this deque, or returns null if this deque is empty.*/
     public T pollFirst(){
-
+	if(
     }
     /*pollLast:
     ---retrieves and removes the last element of this deque, or returns null if this deque is empty*/

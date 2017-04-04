@@ -38,12 +38,32 @@ public class Euqed<T> implements Deque<T>{
     /*pollFirst:
       ---retrieves and removes the first element of this deque, or returns null if this deque is empty.*/
     public T pollFirst(){
-	if();
+	if(_size == 0){
+	    return null;
+	}
+	else{
+	    LLNode<T> temp = _front
+	    for(int x = 0; x < _size; x ++){
+		temp = temp.getNext();
+	    }
+	}
+	return temp.getValue();
+	_front = _front.getNext();
     }
     /*pollLast:
       ---retrieves and removes the last element of this deque, or returns null if this deque is empty*/
     public T pollLast(){
-	
+	if(_size == 0){
+	    return null;
+	}
+	else{
+	    LLNode<T> temp = _end;
+	    for(int x = _size; x > 0; x --){
+		temp = temp.getNext();
+	    }
+	}
+	return temp.getValue();
+	_end = _end.getNext();
     }
     /*-------------End Poll Methods------------*/
     
@@ -63,4 +83,3 @@ public class Euqed<T> implements Deque<T>{
     }
     /*-------------End Peek Methods------------*/
 }
-

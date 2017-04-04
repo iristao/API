@@ -8,7 +8,7 @@ Class Euqed to implement interface Deque<D>
 */
 public class Euqed<T> implements Deque<T>{
 
-    private LLNode<T> _front, _end;
+    private DLLNode<T> _front, _end;
     private int _size;
 
     public Euqued(){
@@ -17,19 +17,54 @@ public class Euqed<T> implements Deque<T>{
 
 
     
-    /*-------------Begin Add Methods[Iris]------------*/
+  
+    /*-------------Begin Offer Methods[Iris]------------*/
     /*addFirst:
       ---inserts the specified element at the front of this deque if it is possible todo so immediately without violating capacity restrictions - returns a boolean if successful
     */
-    public void offerFirst(T x){
-	
+
+    public void addFirst(T x){
+	DLLNode<T> newN = new DLLNode(x, null, _front);
+	if (isEmpty()){
+	    _front = newN;
+	    _front.setNext(_end);
+	    _end = _front;
+	   
+	}
+	else{
+	    _front.setPrev(newN);
+	    _front = newN;
+
+	   
+	}
+	_size ++;
     }
+	    	
+	
+
     /*addLast:
       ---inserts the specified element at the end of this deque if it is possible to do so without violating capacity restrictions - returns a boolean if successful
     */
-    public void offerlast(T x){
+    public void addLast(T x){
+	DLLNode<T> newN = new DLLNode<T>(x, _end, null);
 	
+	if (isEmpy()){
+	    _end = newN;
+	    _end.setPrev(_front);
+	    _front = _end;
+	   
+	}
+	else{
+	    _end.setNext(newN);
+	    _end = newN;
+	    
+	}
+	_size ++;
+	   
     }
+	
+	
+    
     /*-------------End Add Methods------------*/
     
 
@@ -42,7 +77,7 @@ public class Euqed<T> implements Deque<T>{
 	    return null;
 	}
 	else{
-	    LLNode<T> temp = _front
+	    DLLNode<T> temp = _front
 	    for(int x = 0; x < _size; x ++){
 		temp = temp.getNext();
 	    }
@@ -57,7 +92,7 @@ public class Euqed<T> implements Deque<T>{
 	    return null;
 	}
 	else{
-	    LLNode<T> temp = _end;
+	    DLLNode<T> temp = _end;
 	    for(int x = _size; x > 0; x --){
 		temp = temp.getNext();
 	    }
@@ -74,6 +109,7 @@ public class Euqed<T> implements Deque<T>{
     /*peekFirst:
       ---Retrieves, but does not remove, the first element of this deque, or returns null if this deque is empty*/
     public T peekFirst(){
+        
 	
     }
     /*peekLast:

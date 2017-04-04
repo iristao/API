@@ -1,5 +1,5 @@
 <h1>Team API </h1></br>
-<h2>[roster?] </h2>
+<h2>Pacy Yan, Iris Tao, Aryan Bhatt </h2>
 <h2> Methods Selections: </h2></br>
     <h3> offerFirst: </h3>
     - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. 
@@ -20,4 +20,9 @@
     - peekLast is a necessary part of the deque interface because it allows us to see what the value at either ends is. We chose to write peekLast over getLast because it can be used without having to throw an exception and instead just checks if the deque is empty and returns null.
     </br>
 
-Why we chose LList:
+<h2>Why we chose DLList:</h2></br>
+
+    - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next (ie. methods like get/setPrev, get/setNext) It makes it a lot easier to implement that double-direction feature. 
+   
+
+   

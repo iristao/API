@@ -20,7 +20,7 @@
     - peekLast is a necessary part of the deque interface because it allows us to see what the value at either ends is. We chose to write peekLast over getLast because it can be used without having to throw an exception and instead just checks if the deque is empty and returns null.
     </br>
 
-<h2>Why we chose DLList:</h2></br>
+    <h2>Why we chose DLList:</h2></br>
 
     - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next (ie. methods like get/setPrev, get/setNext) It makes it a lot easier to implement that double-direction feature. 
    

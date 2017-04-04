@@ -1,8 +1,8 @@
-Team API
+Team API </br>
 [roster?]
 
 Methods Selections: </br>
-    offerFirst - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. 
+    offerFirst - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. </br>
     offerLast - offerLast is a necessary part of the Deque interface because it allows us to insert an element at either end of the Deque. We chose to write offerLast instead of addLast because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack.
     pollFirst - pollFirst is a necessary part of the Deque interface because it returns the value at either front of the deque and removes it. We chose to write pollFirst over removeFirst because it can be used without having to throw an exception and instead just checks if the deque is empty. 
     pollLast - pollLast is a necessary part of the deque interface because it returns the value at either end of the deque and removes it. We chose to write pollLast over removeLast because it can be used without having to throw an exception and instead just checks if the deque is empty. 

@@ -21,7 +21,9 @@
     </br>
 
     Why we chose DLList:
-    - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next (ie. methods like get/setPrev, get/setNext) It makes it a lot easier to implement that double-direction feature. 
+    - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next
+    - (ie. methods like get/setPrev, get/setNext) 
+    - It makes it a lot easier to implement that double-direction feature. 
    
     
   

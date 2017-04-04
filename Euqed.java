@@ -110,12 +110,12 @@ public class Euqed<T> implements Deque<T>{
       ---Retrieves, but does not remove, the first element of this deque, or returns null if this deque is empty*/
     public T peekFirst(){
         
-	
+	return _front.getCargo();
     }
     /*peekLast:
       ---Retrieves, but does not remove, the last element of this deque, or returns null if this deque is empty*/
     public T peekLast(){
-	
+	return _end.getCarg();
     }
     /*-------------End Peek Methods------------*/
 }

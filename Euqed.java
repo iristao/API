@@ -19,15 +19,15 @@ public class Euqed<T> implements Deque<T>{
     
     /*-------------Begin Add Methods[Iris]------------*/
     /*addFirst:
-      ---inserts the specified element at the front of this deque if it is possible todo so immediately without violating capacity restrictions.
+      ---inserts the specified element at the front of this deque if it is possible todo so immediately without violating capacity restrictions - returns a boolean if successful
     */
-    public void addFirst(T x){
+    public void offerFirst(T x){
 	
     }
     /*addLast:
-      ---inserts the specified element at the end of this deque if it is possible to do so without violating capacity restrictions
+      ---inserts the specified element at the end of this deque if it is possible to do so without violating capacity restrictions - returns a boolean if successful
     */
-    public void addlast(T x){
+    public void offerlast(T x){
 	
     }
     /*-------------End Add Methods------------*/

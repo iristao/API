@@ -1,8 +1,7 @@
 <h1>Team API </h1></br>
 <h2>[roster?] </h2>
-
 <h2> Methods Selections: </h2></br>
-    <h3> offerFirst: </h3> </br>
+    <h3> offerFirst: </h3>
     - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. 
     </br>
     offerLast - offerLast is a necessary part of the Deque interface because it allows us to insert an element at either end of the Deque. We chose to write offerLast instead of addLast because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack.

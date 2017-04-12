@@ -5,7 +5,7 @@
      - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next
      - (ie. methods like get/setPrev, get/setNext) 
      - It makes it a lot easier to implement the double-direction feature. 
-     
+     </br>
  <h2> Methods Selections: </h2>
      <h3> addFirst: </h3>
      - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. 

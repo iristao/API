@@ -1,5 +1,5 @@
- <h1>Team API </h1></br>
- <h2>Pacy Yan, Iris Tao, Aryan Bhatt </h2>
+ <h1>Team API </h1>
+ <h2>Pacy Yan, Iris Tao, Aryan Bhatt </h2></br></br>
  
  <h2>Why we chose DLList:</h2></br>
      - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next

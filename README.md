@@ -4,13 +4,13 @@
  <h2>Why we chose DLList:</h2></br>
      - double-linked-list gives deque its double-linked feature because DLLNode offers both prev and next
      - (ie. methods like get/setPrev, get/setNext) 
-     - It makes it a lot easier to implement that double-direction feature. 
+     - It makes it a lot easier to implement the double-direction feature. 
      
  <h2> Methods Selections: </h2></br>
-     <h3> offerFirst: </h3>
+     <h3> addFirst: </h3>
      - offerFirst is a necessary part of the Deque interface because it allows us to insert an element at the beginning at either beginning of the Deque. We chose to write offerFirst instead of addFirst because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack. 
      </br>
-     <h3>offerLast: </h3> </br>
+     <h3>addLast: </h3> </br>
      - offerLast is a necessary part of the Deque interface because it allows us to insert an element at either end of the Deque. We chose to write offerLast instead of addLast because we thought it would be useful for us to be able to check whether or not the thing we added was successful instead of having to look at the entire stack.
      </br>
      <h3>pollFirst: </h3> </br> 
@@ -27,8 +27,15 @@
      </br>
 
      
+<h2>Changes Made</h2></br>
 
+     - We changed offerFirst and offerLast to addFirst and addLast in response to team BNTWomen's code review. The reason why the methods on the code and readme file didn't match the first time was because we changed our mind while coding but forgot to revise the readme file. Apologies for that. 
 
+     - We moved the "Why we chose DLLNode" section from the bottom to the top of the file and got rid of the problem of that part being a code block instead of formatted text. The reason why that problem occurred remains unknown. But moving it up did give back did fix the formatting issue. 
+
+     - Bugs fixed! We did not include a main method in the first place and so the code didn't compile. We added a main method with some test cases and fixed a lot of bugs in our code (typos, wrong variable and method names, incompatible return types, etc.) which we didn't discover before. Now the code compiles correctly and displays the test results. 
+
+     - API updated! 
 
 
 

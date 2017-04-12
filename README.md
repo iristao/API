@@ -27,10 +27,10 @@
      </br>
 
      
-<h2>Changes Made</h2></br>
-     - We changed offerFirst and offerLast to addFirst and addLast in response to team BNTWomen's code review. The reason why the methods on the code and readme file didn't match the first time was because we changed our mind while coding but forgot to revise the readme file. Apologies for that. </br>
-     - We moved the "Why we chose DLLNode" section from the bottom to the top of the file and got rid of the problem of that part being a code block instead of formatted text. The reason why that problem occurred remains unknown. But moving it up did give back did fix the formatting issue. </br>
-     - Bugs fixed! We did not include a main method in the first place and so the code didn't compile. We added a main method with some test cases and fixed a lot of bugs in our code (typos, wrong variable and method names, incompatible return types, etc.) which we didn't discover before. Now the code compiles correctly and displays the test results. </br>
+<h2>Changes Made</h2></br></br>
+     - We changed offerFirst and offerLast to addFirst and addLast in response to team BNTWomen's code review. The reason why the methods on the code and readme file didn't match the first time was because we changed our mind while coding but forgot to revise the readme file. Apologies for that. </br></br>
+     - We moved the "Why we chose DLLNode" section from the bottom to the top of the file and got rid of the problem of that part being a code block instead of formatted text. The reason why that problem occurred remains unknown. But moving it up did give back did fix the formatting issue. </br></br>
+     - Bugs fixed! We did not include a main method in the first place and so the code didn't compile. We added a main method with some test cases and fixed a lot of bugs in our code (typos, wrong variable and method names, incompatible return types, etc.) which we didn't discover before. Now the code compiles correctly and displays the test results. </br></br>
      - API updated! </br>
 
 
